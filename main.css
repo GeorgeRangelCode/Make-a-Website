@@ -17,6 +17,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #header a:hover {
@@ -74,6 +76,7 @@ a:hover {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
+  padding-left: 20px;
 }
 
 .post {
@@ -109,4 +112,11 @@ h4 {
 
 p {
   line-height: 1.5;
+}
+
+.post,
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
 }

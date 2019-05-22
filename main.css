@@ -120,3 +120,16 @@ p {
   margin: 0 auto;
   padding: 60px 0;
 }
+
+.about {
+  text-align: center;
+}
+
+.post-author img,
+.about-author img {
+  border-radius: 50%;
+}
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
